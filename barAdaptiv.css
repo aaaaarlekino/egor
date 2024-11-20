@@ -1,0 +1,620 @@
+@media (min-width:300px) and (max-width:320px){
+  .header p {
+
+  }
+  .img-menu {
+    margin-right: 0;
+  }
+  .header {
+    justify-content: space-between;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  .nav {
+    display: none;
+  }
+  .burger  {
+    display: block;
+
+  }
+  .burger img {
+    height: 25px;
+  }
+  .first-window {
+    height: 375px;
+    background-size: 200%;
+  }
+  .first-window h1 {
+    font-size: 47px
+  }
+  .first-window img {
+    width: 205px;
+    height: 274px;
+    filter: blur(1px);
+  }
+  #first-window-img {
+    top: 85%;
+  }
+  .first-window p {
+    top: 98%;
+  }
+  .menu {
+    padding-top: 50px;
+    flex-direction: column-reverse;
+  }
+  .menu img {
+    width: 273px;
+    height: 159px;
+  }
+  .wrapper-coctel {
+    display: flex;
+    justify-content: center;
+  }
+  .text-menu {
+
+  }
+  .text-menu img {
+    width: 40px;
+    height: 10px;
+  }
+  .menu p {
+    font-size: 16px;
+    line-height: 175%;
+    width: 270px;
+  }
+  .menu h2 {
+    font-size: 42px;
+    width: 270px;
+  }
+  .menu h6 {
+    font-size: 20px;
+  }
+  .menu button {
+    width: 160px;
+    height: 44px
+  }
+  .wrapper-text-menu {
+    display: flex;
+    justify-content: center;
+  }
+  .text-menu {
+    width: 270px;
+  }
+  .img-menu {
+    background-image: url("img/BG.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding-top: 0;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+  }
+  .img-menu img {
+    width: 243px;
+    height: 317px;
+  }
+  .preferences-top p {
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  .preferences-top {
+    flex-flow: column-reverse;
+  }
+  .preferences-img {
+    flex-flow: column;
+    align-items: center;
+  }
+  .preferences-img img{
+    margin-top: 20px;
+    width: 200px;
+    height: 295px;
+  }
+  .discout {
+    background-image: url("img/skidks.png");
+    justify-content: center;
+    height: 520px;
+  }
+  .discout h5 {
+    font-size: 32px;
+    margin-bottom: 10px;
+  }
+  .discout-text {
+
+    flex-direction: column;
+    align-items: center;
+  }
+  .discout-text p {
+    font-size: 20px;
+
+  }
+  .abena h2{
+    position: absolute;
+    top: -300%;
+    transform: translate(-50%, -50%);
+    left: 50%;
+  }
+  .footer {
+    margin-top: 140px;
+    flex-flow: column;
+    position: relative;
+  }
+  .footer h6 {
+    justify-content: flex-start;
+    font-size: 20px;
+  }
+  .footer h5 {
+    font-size: 20px;
+
+  }
+  .wrapper-footer {
+    display: flex;
+    justify-content: center;
+  }
+}
+@media (min-width:321px) and (max-width:375px){
+  .header p {
+
+  }
+  .img-menu {
+    margin-right: 0;
+  }
+  .header {
+    justify-content: space-between;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  .nav {
+    display: none;
+  }
+  .burger  {
+    display: block;
+
+  }
+  .burger img {
+    height: 25px;
+  }
+  .first-window {
+    background-size: 200%;
+    height: 375px;
+  }
+  .first-window h1 {
+    font-size: 51px
+  }
+  .first-window img {
+    width: 234px;
+    height: 310.03px;
+    filter: blur(1px);
+  }
+  #first-window-img {
+    top: 85%;
+  }
+  .first-window p {
+    top: 98%;
+  }
+  .menu {
+    padding-top: 50px;
+    flex-direction: column-reverse;
+  }
+  .menu img {
+    width: 310px;
+    height: 189px;
+  }
+  .wrapper-coctel {
+    display: flex;
+    justify-content: center;
+  }
+  .text-menu {
+    width: 310px;
+  }
+  .text-menu img {
+    width: 40px;
+    height: 10px;
+  }
+  .menu  {
+    background-size: 400%;
+    margin-bottom: 0;
+    padding-bottom: 40px;
+  }
+  .menu p {
+    font-size: 16px;
+    line-height: 175%;
+    width: 270px;
+  }
+  .menu h2 {
+    font-size: 42px;
+    width: 270px;
+  }
+  .menu h6 {
+    font-size: 20px;
+  }
+  .menu button {
+    width: 160px;
+    height: 44px
+  }
+  .wrapper-text-menu {
+    display: flex;
+    justify-content: center;
+  }
+
+  .img-menu {
+
+    padding-top: 0;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  .img-menu img {
+    width: 255px;
+    height: 343px
+  }
+  .preferences-top p {
+    font-size: 34px;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  .preferences-top {
+    flex-flow: column-reverse;
+  }
+  .preferences-img {
+    flex-flow: column;
+    align-items: center;
+  }
+  .preferences-img img{
+    margin-top: 20px;
+    width: 225px;
+    height: 315px;
+  }
+  .discout {
+    background-image: url("img/skidks.png");
+    justify-content: center;
+    height: 600px;
+  }
+  .discout h5 {
+    font-size: 32px;
+    margin-bottom: 10px;
+  }
+  .discout-text {
+
+    flex-direction: column;
+    align-items: center;
+  }
+  .discout-text p {
+    font-size: 20px;
+
+  }
+  .abena h2{
+    position: absolute;
+    top: -300%;
+    transform: translate(-50%, -50%);
+    left: 50%;
+  }
+  .footer {
+    margin-top: 140px;
+    flex-flow: column;
+    position: relative;
+  }
+  .footer h6 {
+    justify-content: flex-start;
+    font-size: 20px;
+  }
+  .footer h5 {
+    font-size: 20px;
+
+  }
+  .wrapper-footer {
+    display: flex;
+    justify-content: center;
+  }
+}
+@media (min-width:376px) and (max-width:425px){
+  .header p {
+
+  }
+  .img-menu {
+    margin-right: 0;
+  }
+  .header {
+    justify-content: space-between;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  .nav {
+    display: none;
+  }
+  .burger  {
+    display: block;
+
+  }
+  .burger img {
+    height: 25px;
+  }
+  .first-window {
+    background-size: 200%;
+    height: 375px;
+  }
+  .first-window h1 {
+    font-size: 60px
+  }
+  .first-window img {
+    width: 234px;
+    height: 310.03px;
+    filter: blur(1px);
+  }
+  #first-window-img {
+    top: 85%;
+  }
+  .first-window p {
+    top: 98%;
+  }
+  .menu {
+    height: 1040px;
+    padding-top: 50px;
+    flex-direction: column-reverse;
+  }
+  .menu img {
+    width: 90%;
+    height: 90%;
+  }
+  .wrapper-coctel {
+    display: flex;
+    justify-content: center;
+  }
+  .text-menu {
+    width: 370px;
+  }
+  .text-menu img {
+    width: 40px;
+    height: 10px;
+  }
+  .menu  {
+    background-size: 400%;
+    margin-bottom: 0;
+    padding-bottom: 60px;
+  }
+  .menu p {
+    font-size: 18px;
+    line-height: 175%;
+    width: 100%;
+    letter-spacing: 0.04em;
+  }
+  .menu h2 {
+    font-size: 48px;
+    width: 314px;
+  }
+  .menu h6 {
+    font-size: 22px;
+  }
+  .menu button {
+    width: 160px;
+    height: 44px
+  }
+  .wrapper-text-menu {
+    display: flex;
+    justify-content: center;
+  }
+
+  .img-menu {
+
+    padding-top: 0;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  .img-menu img {
+    width: 279px;
+    height: 382px;
+  }
+  .preferences-top p {
+    font-size: 38px;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  .preferences-top {
+    flex-flow: column-reverse;
+  }
+  .preferences-img {
+    flex-flow: column;
+    align-items: center;
+  }
+  .preferences-img img{
+    margin-top: 20px;
+    width: 225px;
+    height: 315px;
+  }
+  .discout {
+    background-image: url("img/skidks.png");
+    justify-content: center;
+    height: 600px;
+  }
+  .discout h5 {
+    font-size: 38px;
+    margin-bottom: 10px;
+  }
+  .discout-text {
+
+    flex-direction: column;
+    align-items: center;
+  }
+  .discout-text p {
+    font-size: 26px;
+
+  }
+  .abena h2{
+    position: absolute;
+    top: -310%;
+    transform: translate(-50%, -50%);
+    left: 50%;
+  }
+  .footer {
+    margin-top: 140px;
+    flex-flow: column;
+    position: relative;
+  }
+  .footer h6 {
+    justify-content: flex-start;
+    font-size: 20px;
+  }
+  .footer p {
+    font-size: 20px;
+
+  }
+  .wrapper-footer {
+    display: flex;
+    justify-content: center;
+  }
+}
+@media (min-width:426px) and (max-width:768px){
+  .nav {
+    width: 500px;
+  }
+  .first-window img {
+    width: 450px;
+    height: 640px;
+  }
+  .first-window  {
+    background-size: 200%;
+    height: 750px;
+  }
+  .first-window h1 {
+    font-size: 100px;
+  }
+  .first-window p {
+    top: 95%;
+  }
+  .wrapper-coctel {
+    width: 351px;
+    height: 222px;
+  }
+  .menu img {
+    width: 351px;
+    height: 222px;
+  }
+  .wrappers {
+    width: 350px;
+  }
+  .menu {
+    height: 670px;
+    background-size: 200%;
+    padding-top: 100px;
+  }
+  .menu p {
+    width: 350px;
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+  .menu h6 {
+    margin-top: 30px;
+    font-size: 21px;
+    margin-bottom: 5px;
+  }
+  .menu h2 {
+    margin-top: 5px;
+    font-size: 38px;
+    width: 350px;
+    margin-bottom: 20px;
+  }
+  .img-menu {
+    padding-top: 150px;
+  }
+  .img-menu img{
+    width: 302px;
+    height: 421px;
+  }
+  .text-menu img {
+    width: 40px;
+    height: 10px;
+  }
+  .preferences-top p {
+    font-size: 38px;
+  }
+  .preferences-img img {
+    width: 224px;
+    height: 328px;
+  }
+  .discout  {
+    justify-content: center;
+    height: 480px;
+  }
+  .discout h5 {
+    margin-top: 0;
+    font-size: 70px;
+    margin-bottom: 10px;
+  }
+  .discout p {
+    font-size: 22px;
+
+  }
+
+}
+@media (min-width:769px) and (max-width:1024px){
+  .nav {
+    width: 560px;
+  }
+  .first-window img {
+    width: 486px;
+    height: 644px;
+  }
+  .first-window  {
+    background-size: 200%;
+    height: 750px;
+  }
+  .first-window h1 {
+    font-size: 140px;
+  }
+  .first-window p {
+    top: 95%;
+  }
+  .wrapper-coctel {
+    width: 430px;
+    height: 260px;
+  }
+  .menu img {
+    width: 430px;
+    height: 260px;
+  }
+  .wrappers {
+    width: 430px;
+  }
+  .menu {
+    height: 715px;
+    background-size: 200%;
+    padding-top: 100px;
+  }
+  .menu h2 {
+    font-size: 44px;
+    width: 430px;
+  }
+  .img-menu {
+    padding-top: 90px;
+  }
+  .img-menu img{
+    width: 396px;
+    height: 581px;
+  }
+  .text-menu img {
+    width: 40px;
+    height: 10px;
+  }
+  .preferences-top p {
+    font-size: 52px;
+  }
+  .preferences-img img {
+    width: 300px;
+    height: 400px;
+  }
+  .discout  {
+    justify-content: center;
+    height: 610px;
+  }
+  .discout h5 {
+    margin-top: 0;
+    font-size: 90px;
+    margin-bottom: 10px;
+  }
+}
+@media (min-width:1025px) and (max-width:1441px){
+  .discout {
+    height: 900px;
+  }
+}

@@ -1,0 +1,478 @@
+@import url('https://fonts.googleapis.com/css2?family=Scada&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant:wght@300&display=swap');
+
+/* Указываем box sizing */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* Убираем внутренние отступы */
+ul[class],
+ol[class] {
+    padding: 0;
+}
+
+/* Убираем внешние отступы */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+    margin: 0;
+}
+
+/* Выставляем основные настройки по-умолчанию для body */
+body {
+    min-height: 100vh;
+    scroll-behavior: smooth;
+    text-rendering: optimizeSpeed;
+    line-height: 1.5;
+}
+
+/* Удаляем стандартную стилизацию для всех ul и il, у которых есть атрибут class*/
+ul[class],
+ol[class] {
+    list-style: none;
+}
+
+/* Элементы a, у которых нет класса, сбрасываем до дефолтных стилей */
+a:not([class]) {
+    text-decoration-skip-ink: auto;
+}
+
+/* Упрощаем работу с изображениями */
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/* Указываем понятную периодичность в потоке данных у article*/
+article>*+* {
+    margin-top: 1em;
+}
+
+/* Наследуем шрифты для инпутов и кнопок */
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+/* ОБНУЛЕНИЕ ЗАВЕРШЕНО */
+
+body {
+    background-color: #0C0B08;
+}
+
+.text-wide {
+    width: 1142px;
+    margin: 0 auto;
+}
+
+header {
+    padding-top: 3%;
+    display: flex;
+    justify-content: space-between;
+}
+
+header,
+.links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header h2,
+footer h2 {
+    font-family: Belladona;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 145%;
+    letter-spacing: 0.155em;
+    color: white;
+}
+
+.links {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 600px;
+}
+.wrapper-wideo {
+  display: flex;
+  justify-content: center;
+}
+.links a {
+
+    font-family: Scada;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 145%;
+    letter-spacing: 0.155em;
+}
+
+.new-menu {
+    margin-top: 7%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.new-block-one h3,
+.about-us h2,
+.service h2,
+.special h2 {
+    font-family: Cormorant Infant;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 130%;
+    letter-spacing: 0.04em;
+    font-feature-settings: 'tnum'on, 'lnum'on;
+    color: #DCCA87;
+}
+
+.new-block-one p {
+    font-family: Cormorant Infant;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 130%;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    font-feature-settings: 'tnum'on, 'lnum'on;
+    color: #FFFFFF;
+    width: 576px;
+    margin-top: 3%;
+}
+
+.new-block-one button {
+    font-family: Scada;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 175%;
+    letter-spacing: 0.04em;
+    color: #000000;
+    padding: 2%;
+    background: #DCCA87;
+    border-radius: 11px;
+    border: none;
+    text-decoration: none;
+    margin: 5% 10%;
+}
+
+img[alt="newMenu"] {
+    width: 797px;
+    height: 548px;
+}
+
+img[alt="scroll-left"] {
+    position: relative;
+    top: 250px;
+    left: -50px;
+}
+
+img[alt="scroll-right"] {
+    position: relative;
+    top: 250px;
+}
+
+.about-text {
+    text-align: right;
+    width: 50%;
+    padding-right: 10%;
+}
+
+.about-text img {
+    float: right;
+}
+
+.about-us {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+}
+
+.about-us p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    text-align: right;
+    letter-spacing: 0.04em;
+    color: #AAAAAA;
+    padding: 5% 0;
+}
+
+.about-us button,
+.service button {
+    background: #DCCA87;
+    border: none;
+    padding: 8px 32px;
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 175%;
+    letter-spacing: 0.04em;
+    color: #0C0C0C;
+}
+
+.service {
+    background: #0C0C0C;
+    border: 1px solid rgba(220, 202, 135, 0.2);
+    width: 100%;
+    margin: 10% auto;
+    box-shadow: 22px 30px 95px 1px rgba(0, 0, 0, 0.7);
+    text-align: center;
+    color: white;
+    text-align: -webkit-center;
+    padding-bottom: 3%;
+}
+
+img[alt='lozka'] {
+    transform: rotate(180deg);
+    margin: 0;
+}
+
+.service h5 {
+    font-family: 'Cormorant Infant';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 130%;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    font-feature-settings: 'tnum'on, 'lnum'on;
+    margin: 1%;
+}
+
+select,
+input[type='date'] {
+    border: 1px solid #F5EFDB;
+    padding: 1% 15% 1% 1%;
+    background: transparent;
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 175%;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    font-feature-settings: 'tnum'on, 'lnum'on;
+    color: #AAAAAA;
+    margin: 3% 1%;
+}
+
+input[type='date'] {
+    padding: 0.6% 14% 0.6% 1%;
+    position: relative;
+}
+
+::-webkit-calendar-picker-indicator {
+    opacity: 1;
+    position: absolute;
+    background-color: white;
+    right: 3px;
+}
+
+.service button {
+    font-family: 'Cormorant Infant';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 175%;
+    letter-spacing: 0.04em;
+    color: #0C0C0C;
+}
+
+.bar-menu {
+    background-image: url('img/pivo.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-bottom: 10%;
+}
+
+.bar-menu-text {
+    padding-top: 20%;
+    padding-left: 5%;
+}
+
+.bar-menu-text a {
+    font-family: 'Cormorant Infant';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 130%;
+    letter-spacing: 0.03em;
+    display: block;
+    text-transform: capitalize;
+    font-feature-settings: 'tnum'on, 'lnum'on;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 2% 0;
+    transition: all 1s;
+}
+
+.bar-menu-text a:hover {
+    text-decoration: underline;
+}
+
+.special {
+    text-align: center;
+    text-align: -webkit-center;
+    margin-top: 3%;
+}
+
+.special-menu {
+    margin-top: 5%;
+}
+
+.special-menu h4 {
+    font-family: 'Cormorant Infant';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 130%;
+    text-align: center;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    font-feature-settings: 'tnum'on, 'lnum'on;
+    color: #FFFFFF;
+}
+
+.special-cell {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.special-cell h5 {
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 130%;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    font-feature-settings: 'tnum'on, 'lnum'on;
+    color: #DCCA87;
+    margin-right: 5%;
+    white-space: nowrap;
+}
+
+.special-cell hr {
+    background: #FAFAFA;
+    border: none;
+    width: 50px;
+    height: 1px;
+}
+
+.special-cell h6 {
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 130%;
+    text-align: center;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    font-feature-settings: 'tnum'on, 'lnum'on;
+    color: #FFFFFF;
+    padding-left: 5%;
+}
+
+.special-item p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #AAAAAA;
+    text-align: left;
+    margin-top: -15%;
+}
+
+.special img {
+    padding-left: 8%;
+}
+
+.special-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img[alt='video'] {
+    margin-top: 4%;
+    display: flex;
+    justify-content: center;
+}
+
+footer .text-wide {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-item h5 {
+    font-family: 'Cormorant Infant';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 130%;
+    letter-spacing: 0.03em;
+    text-transform: capitalize;
+    font-feature-settings: 'tnum'on, 'lnum'on;
+    color: #DCCA87;
+    margin: 3% 0;
+}
+
+.footer-item p {
+    font-family: 'Cormorant Infant';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 130%;
+    text-align: right;
+    letter-spacing: 0.03em;
+    text-transform: capitalize;
+    font-feature-settings: 'tnum'on, 'lnum'on;
+    color: #C4C4C4;
+    text-align: left;
+    padding: 3% 0;
+}
+
+.footer-item {
+    margin-top: 2%;
+}
+
+.adp-title {
+    display: none;
+}
+.wrapper-bar-menu {
+  display: flex;
+  justify-content: center;
+}
+.bar-menu {
+  width: 1440px;
+}

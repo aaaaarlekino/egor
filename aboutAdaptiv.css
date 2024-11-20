@@ -1,0 +1,662 @@
+@media (min-width:300px) and (max-width:320px) {
+  .gold {
+    height: 280px;
+    background-size: 200%;
+    background-image: url("img/backBlur.jpg");
+  }
+  .video {
+    margin-top: 25px;
+  }
+  .service {
+    width: 90%;
+  }
+  .gold p {
+    font-size: 32px;
+    text-align: center;
+    letter-spacing: 0.04em;
+
+  }
+
+  .about-shef  {
+    margin-left: 0;
+  }
+  .gown-gold p {
+    font-size: 16px;
+  }
+  .gown-gold h2 {
+    text-align: center;
+    letter-spacing: 0.03em;
+    font-size: 32px;
+  }
+  .hestory {
+    flex-flow: column;
+    align-items: center;
+  }
+  .hest-left img {
+    width: 274px;
+    height: 306px;
+  }
+  .hest-left p {
+    letter-spacing: 0.04em;
+    font-size: 13px;
+    width: 273px;
+
+
+  }
+  .hest-right img {
+    width: 299px;
+    height: 181px;
+  }
+  .amout h4 {
+    letter-spacing: 0.04em;
+    font-size: 36px;
+  }
+  .amout p {
+    font-size: 24px;
+  }
+  select, input[type='date'] {
+    width: 260px;
+  }
+  .wrapper-amout img {
+    width: 1px;
+    height: 100px;
+  }
+  .amout img {
+    width: 40px;
+    height: 10px;
+  }
+  .hest-right {
+    display: flex;
+    flex-flow: column-reverse;
+  }
+  .amout-sup {
+    margin-bottom: 15px;
+  }
+  .hest-right h3 {
+    font-size: 32px;
+    margin-bottom: 8px;
+  }
+  .development h2 {
+    font-size: 32px;
+    text-align: center;
+    width: 300px;
+  }
+  .development p {
+    font-size: 16px;
+    width: 325px;
+  }
+  .shef {
+    padding: 0;
+    flex-flow: column-reverse;
+    background-size: 480%;
+    padding-bottom: 40px
+  }
+  .shef img {
+
+  }
+  #shef-img{
+    width: 260px;
+    height: 326px
+  }
+  .about-shef h2 {
+    margin-bottom: 0;
+    font-size: 36px;
+  }
+  .about-shef p {
+    width: 240px;
+  }
+  .about-shef h6{
+    letter-spacing: 0.04em;
+  }
+  #kevin-img {
+    margin-bottom: 30px;
+  }
+  .Reservation  {
+    width: 300px;
+  }
+
+  .menu-list {
+    flex-direction: column;
+    padding-left: 0;
+  }
+  .menu-list>li {
+    margin-bottom: 25px;
+    width: 220px;
+    height: 40px;
+  }
+  .sub-menu-list {
+    width: 250px;
+    height: 40px;
+
+    top: 100%;
+    left: -1px;
+    right: 100%;
+  }
+  .sub-menu-list>li{
+    height: 40px;
+    width: 245px;
+  }
+  .select {
+    margin-bottom: 25px;
+  }
+  .footer {
+    margin-top: 220px;
+    margin-left: 15px;
+  }
+  .abena {
+    padding-right: 15px;
+  }
+
+}
+@media (min-width:321px) and (max-width:375px) {
+  select, input[type='date'] {
+    width: 260px;
+  }
+  .video {
+    margin-top: 25px;
+  }
+  .about-shef  {
+    margin-left: 0;
+  }
+  .service {
+    width: 90%;
+  }
+  .gold {
+    height: 280px;
+    background-size: 200%;
+    background-image: url("img/backBlur.jpg");
+  }
+  .gold p {
+    font-size: 32px;
+    text-align: center;
+    letter-spacing: 0.04em;
+
+  }
+  .gown-gold p {
+    font-size: 18px;
+  }
+  .gown-gold h2 {
+    text-align: center;
+    letter-spacing: 0.03em;
+    font-size: 34px;
+  }
+  .hestory {
+    flex-flow: column;
+    align-items: center;
+  }
+  .hest-left img {
+    width: 274px;
+    height: 306px;
+  }
+  .hest-left p {
+    letter-spacing: 0.04em;
+    font-size: 13px;
+    width: 273px;
+
+
+  }
+  .hest-right img {
+    width: 299px;
+    height: 181px;
+  }
+  .amout h4 {
+    letter-spacing: 0.04em;
+    font-size: 36px;
+  }
+  .amout p {
+    font-size: 24px;
+  }
+
+  .wrapper-amout img {
+    width: 1px;
+    height: 100px;
+  }
+  .amout img {
+    width: 40px;
+    height: 10px;
+  }
+  .hest-right {
+    display: flex;
+    flex-flow: column-reverse;
+  }
+  .amout-sup {
+    margin-bottom: 15px;
+  }
+  .hest-right h3 {
+    font-size: 32px;
+    margin-bottom: 8px;
+  }
+  .development h2 {
+    font-size: 32px;
+    text-align: center;
+    width: 300px;
+  }
+  .development p {
+    font-size: 16px;
+    width: 325px;
+  }
+  .shef {
+    padding: 0;
+    flex-flow: column-reverse;
+    background-size: 480%;
+    padding-bottom: 40px;
+  }
+  .shef img {
+
+  }
+  #shef-img{
+    width: 260px;
+    height: 326px
+  }
+  .about-shef h2 {
+    margin-bottom: 0;
+    font-size: 36px;
+  }
+  .about-shef p {
+    width: 240px;
+  }
+  .about-shef h6{
+    letter-spacing: 0.04em;
+  }
+  #kevin-img {
+    margin-bottom: 30px;
+  }
+  .Reservation  {
+    width: 300px;
+  }
+
+  .menu-list {
+    flex-direction: column;
+    padding-left: 0;
+  }
+  .menu-list>li {
+    margin-bottom: 25px;
+    width: 220px;
+    height: 40px;
+  }
+  .sub-menu-list {
+    width: 250px;
+    height: 40px;
+
+    top: 100%;
+    left: -1px;
+    right: 100%;
+  }
+  .sub-menu-list>li{
+    height: 40px;
+    width: 245px;
+  }
+  .select {
+    margin-bottom: 25px;
+  }
+  .footer {
+    margin-top: 220px;
+    margin-left: 15px;
+  }
+  .abena {
+    padding-right: 15px;
+  }
+
+}
+@media (min-width:376px) and (max-width:425px)  {
+  select, input[type='date'] {
+    width: 260px;
+  }
+  .video {
+    margin-top: 25px;
+  }
+  .about-shef  {
+    margin-left: 0;
+  }
+  .service {
+    width: 90%;
+  }
+  .gold {
+    height: 280px;
+    background-size: 200%;
+    background-image: url("img/backBlur.jpg");
+  }
+  .gold p {
+    font-size: 32px;
+    text-align: center;
+    letter-spacing: 0.04em;
+
+  }
+  .gown-gold p {
+    font-size: 20px;
+  }
+  .gown-gold h2 {
+    text-align: center;
+    letter-spacing: 0.03em;
+    font-size: 38px;
+  }
+  .hestory {
+    flex-flow: column;
+    align-items: center;
+  }
+  .hest-left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .hest-left img {
+    width: 274px;
+    height: 306px;
+  }
+  .hest-left p {
+    letter-spacing: 0.04em;
+    font-size: 16px;
+    width: 330px;
+
+
+  }
+  .hest-right img {
+    width: 299px;
+    height: 181px;
+  }
+  .amout h4 {
+    letter-spacing: 0.04em;
+    font-size: 38px;
+  }
+  .amout p {
+    font-size: 26px;
+  }
+
+  .wrapper-amout img {
+    width: 1px;
+    height: 100px;
+  }
+  .amout img {
+    width: 40px;
+    height: 10px;
+  }
+  .hest-right {
+    display: flex;
+    flex-flow: column-reverse;
+    align-items: center;
+  }
+  .amout-sup {
+    margin-bottom: 15px;
+  }
+  .hest-right h3 {
+    font-size: 38px;
+    margin-bottom: 8px;
+  }
+  .development h2 {
+    font-size: 32px;
+    text-align: center;
+    width: 300px;
+  }
+  .development p {
+    font-size: 16px;
+    width: 325px;
+  }
+  .shef {
+    padding: 0;
+    flex-flow: column-reverse;
+    background-size: 480%;
+    padding-bottom: 40px;
+  }
+  .shef img {
+
+  }
+  #shef-img{
+    width: 260px;
+    height: 326px
+  }
+  .about-shef h2 {
+    margin-bottom: 0;
+    font-size: 36px;
+  }
+  .about-shef p {
+    width: 270px;
+  }
+  .about-shef h6{
+    letter-spacing: 0.04em;
+  }
+  #kevin-img {
+    margin-bottom: 30px;
+  }
+  .Reservation  {
+    width: 300px;
+  }
+
+  .menu-list {
+    flex-direction: column;
+    padding-left: 0;
+  }
+  .menu-list>li {
+    margin-bottom: 25px;
+    width: 220px;
+    height: 40px;
+  }
+  .sub-menu-list {
+    width: 250px;
+    height: 40px;
+
+    top: 100%;
+    left: -1px;
+    right: 100%;
+  }
+  .sub-menu-list>li{
+    height: 40px;
+    width: 245px;
+  }
+  .select {
+    margin-bottom: 25px;
+  }
+  .footer {
+    margin-top: 220px;
+    margin-left: 15px;
+  }
+  .abena {
+    padding-right: 15px;
+  }
+
+}
+@media (min-width:426px) and (max-width:768px) {
+  .gold p {
+    font-size: 55px;
+  }
+  .gold {
+    height: 290px;
+  }
+  .gown-gold h2 {
+    font-size: 40px
+  }
+  .hest-right img {
+    width: 383px;
+    height: 266px;
+  }
+  .hest-left img {
+    width: 312px;
+    height: 369px;
+  }
+  .wrapper-amout img {
+    width: 1px;
+    height: 100px;
+  }
+  .amout img {
+    width: 40px;
+    height: 10px;
+  }
+  .hest-right h3 {
+    font-size: 36px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .amout h4 {
+    font-size: 34px
+  }
+  .amout p {
+    font-size: 24px
+  }
+  .hest-left p {
+    font-size: 14px;
+    width: 313px;
+  }
+  .development h2 {
+    font-size: 38px;
+  }
+  .development p {
+    font-size: 13px;
+  }
+  #shef-img {
+    width: 444px;
+    height: 582px;
+  }
+  .shef {
+    background-size: 200%;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .about-shef h6 {
+    font-size: 20px
+  }
+  .about-shef h5 {
+    font-size: 28px;
+    margin-top: -10px
+  }
+  .about-shef h2 {
+    font-size: 34px;
+    margin-bottom: 45px;
+  }
+  .about-shef p {
+    width: 230px;
+    font-size: 14px;
+    margin-bottom: 35px;
+  }
+  #kevin-img {
+    width: 45%;
+    height: 45%;
+  }
+  .menu-list>li {
+    width: 180px;
+    padding-left: 15px;
+    height: 60px;
+  }
+  .Reservation {
+    width: 730px;
+  }
+  .menu-list {
+    padding-left: 0px;
+  }
+  .menu-list input {
+    width: 160px;
+  }
+  .sub-menu-list {
+    width: 212px;
+    height: 60px;
+  }
+}
+@media (min-width:769px) and (max-width:1024px) {
+  .gold p {
+    font-size: 65px;
+  }
+  .gold {
+    height: 370px;
+  }
+  .gown-gold h2 {
+    font-size: 50px
+  }
+  .hest-right img {
+    width: 383px;
+    height: 266px;
+  }
+  .hest-left img {
+    width: 312px;
+    height: 369px;
+  }
+  .wrapper-amout img {
+    width: 1px;
+    height: 100px;
+  }
+  .amout img {
+    width: 40px;
+    height: 10px;
+  }
+  .hest-right h3 {
+    font-size: 36px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .amout h4 {
+    font-size: 38px
+  }
+  .amout p {
+    font-size: 24px
+  }
+  .hest-left p {
+    font-size: 14px;
+    width: 313px;
+  }
+  .development h2 {
+    font-size:40px;
+  }
+  .development p {
+    font-size: 16px;
+  }
+  #shef-img {
+    width: 444px;
+    height: 582px;
+  }
+  .shef {
+    background-size: 200%;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .about-shef h6 {
+    font-size: 20px
+  }
+  .about-shef h5 {
+    font-size: 28px;
+    margin-top: -10px
+  }
+  .about-shef h2 {
+    font-size: 34px;
+    margin-bottom: 45px;
+  }
+  .about-shef p {
+    width: 430px;
+    font-size: 14px;
+    margin-bottom: 35px;
+  }
+  #kevin-img {
+    width: 45%;
+    height: 45%;
+  }
+  .menu-list>li {
+    width: 240px;
+    padding-left: 15px;
+    height: 60px;
+  }
+  .Reservation {
+    width: 950px;
+  }
+  .menu-list {
+    padding-left: 0px;
+  }
+  .menu-list input {
+    width: 160px;
+  }
+  .sub-menu-list {
+    width: 272px;
+    height: 60px;
+  }
+}
+@media (min-width:1025px) and (max-width:1440px) {
+  .gold {
+    height: 535px;
+  }
+}
+
+@media(min-width: 320px) and (max-width: 1439px) {
+  .video {
+    width: 100%;
+  }
+  
+  .service {
+      width: 100%;
+  }
+}
+

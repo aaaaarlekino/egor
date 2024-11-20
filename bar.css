@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Scada&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@400;700&display=swap');
+.first-window {
+  position: relative;
+  background-image: url("img/BG.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 970px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: -2;
+
+}
+.first-window img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%) ;
+  z-index: -1
+}
+#first-window-img {
+  position: absolute;
+  top: 91%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%) rotate(-89deg);
+  z-index: 2;
+  width: 61px;
+  height: 2px;
+  filter: blur(0px);
+}
+.wrapper-img-fw {
+  display: flex;
+  flex-flow: column;
+;
+}
+.first-window h1 {
+  margin: 0;
+  font-family: "Cormorant Infant";
+  font-weight: 700;
+  font-size: 180px;
+  z-index: 1
+}
+.first-window p {
+  position: absolute;
+  font-family: "Cormorant Upright";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 130%;
+  color: #DCCA87;
+  top: 95%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  margin-top: 20px;
+}
+.menu{
+  background-image: url("img/BG.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 950px;
+  display: flex;
+  justify-content: center;
+  padding-top: 130px;
+  margin-bottom: 30px;
+
+}
+.menu h6 {
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 130%;
+  margin-top: 40px;
+  margin-bottom: 8px;
+}
+
+.text-menu img{
+ width: 40px;
+ height: 10px;
+
+}
+.menu h2 {
+  margin-top: 8px;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 130%;
+  letter-spacing: 0.03em;
+  text-transform: capitalize;
+  color: #DCCA87;
+  width:  600px;
+  margin-bottom: 30px;
+}
+.menu p {
+  width: 420px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 175%;
+  color: #AAAAAA;
+  margin-bottom: 30px;
+}
+.menu button{
+  width: 160px;
+  height: 44px;
+  border: none;
+  font-family: 'Cormorant Infant';
+  font-weight: 700;
+  font-size: 16px;
+  color: #0C0C0C;
+  background-color: #DCCA87
+}
+.img-menu {
+  padding-top: 148px;
+  margin-right: 150px;
+}
+.preferences-top {
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+  align-items: center;
+}
+.wrapper-preferences-img {
+  display: flex;
+  justify-content: center;
+
+}
+.preferences-top img {
+  width: 40px;
+  height: 10px;
+}
+.preferences-top p {
+  font-family: 'Cormorant Infant';
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 130%;
+  color: #DCCA87;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+.preferences-img {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 60px;
+  width: 1400px;
+}
+.discout {
+  background-image: url("img/MoreCoctels.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 1000px;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.discout h5 {
+  font-family: 'Cormorant Infant';
+  font-weight: 600;
+  font-size: 128px;
+  line-height: 130%;
+  color: #DCCA87;
+  display: flex;
+  margin-bottom: 30px;
+  margin-top: 0;
+}
+.discout-text {
+  display: flex;
+}
+.discout-text p {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 130%;
+}
+#discout-time {
+  font-family: 'Cormorant Upright';
+}
+
+.abena h2{
+  font-family: 'Belladona';
+  font-weight: normal;
+  font-size: 60px;
+  margin: 0;
+
+}

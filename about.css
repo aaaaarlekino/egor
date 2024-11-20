@@ -1,0 +1,367 @@
+@import url('https://fonts.googleapis.com/css2?family=Scada&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@400;700&display=swap');
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+
+}
+
+::-webkit-calendar-picker-indicator {
+  opacity: 1;
+  position: absolute;
+  background-color: white;
+  right: 3px;
+}
+
+.wrapper-gold {}
+
+.gold {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 670px;
+  background-image: url("img/beck.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.gold p {
+  font-family: 'Cormorant Infant', serif;
+  font-size: 90px;
+  line-height: 130%;
+  color: #DCCA87;
+}
+
+.gown-gold {
+  display: flex;
+  align-items: center;
+  flex-flow: column;
+}
+
+.gown-gold img {
+  width: 40px;
+  height: 10px;
+  margin-bottom: 10px;
+}
+
+.gown-gold p {
+  font-family: 'Cormorant Infant', serif;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  font-size: 23px;
+  line-height: 130%;
+  color: #FFFFFF;
+
+}
+
+.gown-gold h2 {
+  font-family: 'Cormorant Infant', serif;
+  margin: 0;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 130%;
+  color: #DCCA87;
+}
+
+.wrapper-hestory {
+  display: flex;
+  justify-content: center;
+}
+
+.hestory {
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-around;
+  width: 1400px;
+}
+
+.wrapper-shef {
+  display: flex;
+  justify-content: center;
+}
+
+.hest-left p {
+  font-family: 'Open Sans', sans-serif;
+
+  width: 520px;
+  font-size: 16px;
+  line-height: 175%;
+  color: #AAAAAA;
+  margin-bottom: 30px;
+}
+
+.amout-sup {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.hest-right h3 {
+
+  font-weight: 600;
+  font-size: 45px;
+  line-height: 130%;
+  color: #DCCA87;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.wrapper-amout {
+  display: flex;
+  flex-flow: column;
+}
+
+.amout {
+  display: flex;
+  flex-flow: column;
+
+}
+
+.amout h4 {
+  margin: 0;
+  font-weight: 600;
+  font-size: 45px;
+  line-height: 130%;
+  color: #DCCA87;
+}
+
+.amout p {
+  font-size: 32px;
+  line-height: 130%;
+  color: #FFFFFF;
+}
+
+.amout img {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 40px;
+  height: 10px;
+}
+
+.development {
+  margin-top: 35px;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.development img {
+  width: 40px;
+  height: 10px;
+}
+
+.development p {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  font-size: 16px;
+  line-height: 175%;
+  color: #AAAAAA;
+
+  margin-bottom: 5px;
+}
+
+.development h2 {
+  margin: 0;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 130%;
+  color: #DCCA87;
+  margin-bottom: 30px;
+  margin-top: 8px;
+}
+
+.wrapper-shef {
+  width: 100%;
+}
+
+.shef-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.shef {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("img/beckfesh.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  margin-bottom: 30px;
+  width: 100%;
+}
+
+.about-shef {
+  margin-left: 100px;
+}
+
+.about-shef h6 {
+  font-family: 'Cormorant Upright', serif;
+  margin-bottom: 10px;
+  font-size: 23px;
+  line-height: 130%;
+  color: #FFFFFF;
+
+}
+
+.about-shef h2 {
+  margin-top: 10px;
+  font-size: 64px;
+  line-height: 130%;
+  color: #DCCA87;
+  margin-bottom: 75px;
+}
+
+.about-shef p {
+  font-family: 'Open Sans', sans-serif;
+  width: 570px;
+  font-size: 16px;
+  line-height: 175%;
+  color: #AAAAAA;
+  margin-bottom: 65px;
+
+}
+
+.about-shef h5 {
+  font-family: 'Cormorant Upright', serif;
+  margin-bottom: 10px;
+  font-size: 32px;
+  line-height: 130%;
+  color: #DCCA87;
+}
+
+.select {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 65px;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+}
+
+.service button {
+  background: #DCCA87;
+  border: none;
+  padding: 8px 32px;
+  font-family: 'Cormorant Upright';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 175%;
+  letter-spacing: 0.04em;
+  color: #0C0C0C;
+}
+
+.service {
+  background: #0C0C0C;
+  border: 1px solid rgba(220, 202, 135, 0.2);
+  width: 95%;
+  margin: 10% auto;
+  box-shadow: 22px 30px 95px 1px rgba(0, 0, 0, 0.7);
+  text-align: center;
+  color: white;
+  text-align: -webkit-center;
+  padding-bottom: 3%;
+  width: 1440px;
+  margin: 0 auto;
+}
+
+img[alt='lozka'] {
+  transform: rotate(180deg);
+  margin: 0;
+}
+
+.service h5 {
+  font-family: 'Cormorant Infant';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 130%;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  font-feature-settings: 'tnum', 'lnum';
+  margin: 1%;
+}
+
+select,
+input[type='date'] {
+  border: 1px solid #F5EFDB;
+  padding: 1% 15% 1% 1%;
+  background: transparent;
+  font-family: 'Cormorant Upright';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 175%;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  font-feature-settings: 'tnum' 'lnum';
+  color: #AAAAAA;
+  margin: 3% 1%;
+}
+
+input[type='date'] {
+  padding: 0.6% 14% 0.6% 1%;
+  position: relative;
+}
+
+::-webkit-calendar-picker-indicator {
+  opacity: 1;
+  position: absolute;
+  background-color: white;
+  right: 3px;
+}
+
+.service button {
+  font-family: 'Cormorant Infant';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 175%;
+  letter-spacing: 0.04em;
+  color: #0C0C0C;
+}
+
+.calendar {
+  width: 400px;
+}
+
+.abena h2 {
+  font-family: 'Belladona';
+  font-weight: normal;
+  font-size: 60px;
+  margin: 0;
+}
+
+.video {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  width: 1440px;
+  margin: 0 auto;
+}
+
+.video img {
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  width: 1140px; 
+  margin: 0 auto; 
+}

@@ -1,0 +1,41 @@
+@media (min-width:300px) and (max-width:320px) {
+  .bar-menu-text a {
+    font-size: 32px;
+  }
+  .bar-menu {
+    background-size: 160%;
+      height: 360px;
+  }
+}
+@media (min-width:321px) and (max-width:375px) {
+  .bar-menu-text a {
+    font-size: 34px;
+  }
+  .bar-menu {
+    background-size: 160%;
+      height: 410px;
+  }
+}
+@media (min-width:376px) and (max-width:425px) {
+  .bar-menu-text a {
+    font-size: 36px;
+  }
+  .bar-menu {
+    background-size: 160%;
+      height: 465px;
+  }
+}
+@media (min-width:426px) and (max-width:768px) {
+  .bar-menu-text a {
+    font-size: 40px;
+  }
+  .bar-menu {
+    background-size: 120%;
+      height: 465px;
+  }
+}
+@media (min-width:769px) and (max-width:1024px) {
+  .bar-menu {
+    height: 640px;
+  }
+}

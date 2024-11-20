@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Scada&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@400;700&display=swap');
+.gold {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 670px;
+  background-image: url("img/beck.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.gold p {
+  font-family: 'Cormorant Infant', serif;
+  font-size: 90px;
+  line-height: 130%;
+  color: #DCCA87;
+}
+.map {
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+  bottom: 150px;
+}
+.contacts {
+
+  background-image: url("img/BG.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  padding-top: 160px;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  z-index: -2;
+
+}
+.contacts h2 {
+  margin-top: 0;
+  font-family: 'Cormorant Infant';
+  font-weight: 700;
+  font-size: 90px;
+  color: #DCCA87;
+  margin-bottom: 50px;
+  z-index: 1;
+}
+.contacts input {
+  color: #AAAAAA;
+  font-weight: 600;
+  font-size: 16px;
+  font-family: 'Cormorant Upright';
+  margin-bottom: 30px;
+  border: 1px solid;
+  border-color: #DCCA87;
+  width: 610px;
+  height: 60px;
+  background: none;
+}
+#last-input {
+  height: 140px;
+}
+.contacts-input{
+
+  display: flex;
+  flex-flow: column;
+  align-items: flex-start;
+}
+.contacts-text {
+  margin-right: 70px;
+}
+.contacts button {
+  width: 129px;
+  height: 44px;
+  background: #DCCA87;
+  font-family: 'Cormorant Upright';
+  font-weight: 700;
+  font-size: 16px;
+  color: #0C0C0C;
+  border: none;
+}
+.img {
+  position: relative;
+  z-index: 1;
+
+}
+.input-insaid {
+
+  padding-left: 20px;
+}
+#img-border {
+  position:absolute;
+  top: 40%;
+  left: 40%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+#img-food {
+
+  z-index: 2
+}
